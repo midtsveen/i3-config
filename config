@@ -206,8 +206,5 @@ gaps inner 25px
 
 for_window [class=".*"] border pixel 1
 
-# Set pink color for all window states
+# Set pink color for client.focused
 client.focused              #ff99cc #ff99cc #ff99cc #ff99cc
-#client.unfocused            #ff99cc #ff99cc #ff99cc
-#client.focused_inactive     #ff99cc #ff99cc #ff99cc
-#client.urgent               #ff99cc #ff99cc #ff99cc #ff99cc
