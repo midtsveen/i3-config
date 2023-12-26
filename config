@@ -197,14 +197,17 @@ bar {
 #flameshot
 bindsym $mod+shift+s exec flameshot gui
 
+#i3-lock
+bindsym $mod+p exec i3lock
+
 #wallpaper
 exec_always --no-startup-id feh --bg-fill ~/Pictures/Pink_Sand.jpg
 
 #gaps
-gaps inner 5px
+gaps outer 15px
 gaps inner 25px
 
 for_window [class=".*"] border pixel 1
 
 # Set pink color for client.focused
-client.focused              #ff99cc #ff99cc #ff99cc #ff99cc
+client.focused              #ff99cc #ff99cc #5a3d4a #ff99cc 
