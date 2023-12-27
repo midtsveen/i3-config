@@ -201,7 +201,7 @@ bindsym $mod+shift+s exec flameshot gui
 bindsym $mod+p exec i3lock
 
 #wallpaper
-exec_always --no-startup-id feh --bg-fill ~/Pictures/Pink_Sand.jpg
+exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpaper_Blue.jpg
 
 #gaps
 gaps outer 15px
