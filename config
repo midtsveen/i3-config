@@ -210,4 +210,7 @@ gaps inner 25px
 for_window [class=".*"] border pixel 1
 
 # Set pink color for client.focused
-client.focused              #ff99cc #ff99cc #5a3d4a #ff99cc 
+client.focused              #ff99cc #ff99cc #5a3d4a #ff99cc
+
+#Screen Tearing fix
+exec --no-startup-id xrandr --output  --set "TearFree" "on"`  
