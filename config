@@ -198,7 +198,7 @@ bar {
 bindsym $mod+shift+s exec flameshot gui
 
 #i3-lock
-bindsym $mod+p exec i3lock
+bindsym $mod+p exec i3lock -c 29304a
 
 #wallpaper
 exec_always --no-startup-id feh --bg-fill ~/Pictures/Wallpaper_Blue.jpg
