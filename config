@@ -218,8 +218,5 @@ client.focused              #ff99cc #ff99cc #5a3d4a #ff99cc
 #Screen Tearing fix
 exec --no-startup-id xrandr --output  --set "TearFree" "on"
 
-#Volume Indicator
-exec --no-startup-id volumeicon
-
 #xcompmgr
 exec --no-startup-id xcompmgr
